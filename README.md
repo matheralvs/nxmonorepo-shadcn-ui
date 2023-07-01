@@ -20,15 +20,15 @@ To start the development server run `nx serve web`. Open your browser and naviga
 
 ## Using shared ui library
 
-Para usar a biblioteca de ui você deve importar o arquivo sendo:
+To use the ui library you must import the file being:
 
 `import {...} from '@nxmonorepo-shadcn-ui/ui'`
 
-para componentes do tipo client side (que usam a diretva 'use client'). E ainda:
+for client side components (which use the 'use client' directive). And still:
 
 `import {...} from '@nxmonorepo-shadcn-ui/ui/server`
 
-para componentes do tipo server.
+for serve components.
 
 ## Generate code
 
