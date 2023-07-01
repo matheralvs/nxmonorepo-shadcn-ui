@@ -1,5 +1,7 @@
 # Nx monorepo starter with shadcn/ui#
 
+![Static Badge](https://img.shields.io/badge/shadcn%2Fui-latest-blue?link=https%3A%2F%2Fgithub.com%2Fshadcn%2Fui)
+
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
 This is Nx monorepo starter with shadcn/ui pre-configured.
