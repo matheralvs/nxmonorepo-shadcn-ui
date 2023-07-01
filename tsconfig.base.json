@@ -1,0 +1,23 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@nxmonorepo-shadcn-ui/ui": ["libs/ui/src/index.ts"],
+      "@nxmonorepo-shadcn-ui/ui/server": ["libs/ui/src/server.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
