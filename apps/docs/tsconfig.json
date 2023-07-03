@@ -16,7 +16,13 @@
         "name": "next"
       }
     ],
-    "types": ["jest", "node"]
+    "types": ["jest", "node"],
+    "baseUrl": ".",
+    "paths": {
+      "@nxmonorepo-shadcn-ui/ui": ["../../libs/ui/src/index.ts"],
+      "@nxmonorepo-shadcn-ui/ui/server": ["../../libs/ui/src/server.ts"],
+      "@ui/*": ["../../libs/ui/src/*"]
+    }
   },
   "include": [
     "**/*.ts",

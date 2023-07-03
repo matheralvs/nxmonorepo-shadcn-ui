@@ -1,5 +1,4 @@
-// eslint-disable-next-line @nx/enforce-module-boundaries
-import '../../../libs/ui/src/styles/globals.css';
+import '@ui/styles/globals.css';
 
 export const metadata = {
   title: 'Welcome to web',
